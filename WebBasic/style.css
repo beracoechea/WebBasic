@@ -1,0 +1,74 @@
+/* Estilos generales */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /* Coloca aquí la URL de tu imagen de fondo */
+    background-image: url('https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=1950');
+    background-size: cover; /* Hace que la imagen cubra toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-attachment: fixed; /* Fija la imagen para que no se desplace con el contenido */
+    color: #333;
+}
+
+/* Contenedor principal que envuelve todo el sitio */
+.container {
+    max-width: 960px; /* Ancho máximo del contenido */
+    margin: 40px auto; /* Centra el contenedor horizontalmente y le da un margen superior/inferior */
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semitransparente para legibilidad */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Sombra suave para un efecto de profundidad */
+}
+
+/* Encabezado del sitio */
+.site-header {
+    padding-bottom: 20px;
+    border-bottom: 2px solid #eee; /* Línea divisoria debajo del header */
+    margin-bottom: 20px;
+}
+
+.logo {
+    max-width: 180px; /* Tamaño máximo del logo */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+/* Contenido principal */
+.site-content {
+    padding: 20px 0;
+    text-align: center; /* Centra el texto y el enlace */
+}
+
+.site-content h1 {
+    margin-bottom: 15px;
+}
+
+.site-content a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #c0392b; /* Color rojo similar a YouTube */
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.site-content a:hover {
+    background-color: #e74c3c; /* Color más claro al pasar el mouse */
+}
+
+/* Pie de página */
+.site-footer {
+    border-top: 2px solid #eee; /* Línea divisoria sobre el footer */
+    padding-top: 20px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.site-footer p {
+    margin: 5px 0; /* Espaciado entre los datos de identificación */
+}
